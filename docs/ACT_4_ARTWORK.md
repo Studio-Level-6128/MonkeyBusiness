@@ -20,3 +20,5 @@ Shared direction: painted nautical adventure, teal/navy shadows, amber light, re
 | `credit.png` | Bram's maintenance credit discovery |
 
 Props and emblem were generated on magenta and locally keyed to alpha. The twelve-image contact sheet was visually reviewed. Returning harbour backgrounds and cast reuse their established artwork; the new cabinet/kit/ledger sprites are overlaid rather than respawning earlier-act collectibles.
+
+<p align="center">Produced by<br><a href="https://studio-level-6128.github.io/website/"><img src="assets/studio-level-6128.png" width="150" height="100" alt="Studio Level 6128"></a></p>

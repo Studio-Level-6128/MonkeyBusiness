@@ -54,3 +54,5 @@ Initial all-room automated audit: **6 tests passed**, 51 room views plus 51 over
 Further validation logs: `/tmp/monkey-room-audit.log`, `/tmp/monkey-floor-regressions.log`, `/tmp/monkey-floor-recheck.log`, `/tmp/monkey-floor-act1-recheck.log`, and `/tmp/monkey-floor-build.log`. Read final rerun results rather than assuming an earlier partial run passed.
 
 **Final rerun:** `/tmp/monkey-floor-final-audit.log` reports **14 passed (8.0m)**: the complete 51-room audit with rendered NPC hitbox checks, all five actual bridge water-click tests, and the departure-board/recovery regressions. The current `/home/keuper/Projekte/MonkeyBusiness/test-results/room-audit/` contains the final screenshots and JSON reports. This establishes code and geometry consistency, not the outstanding subjective/art-boundary visual sign-off described above.
+
+<p align="center">Produced by<br><a href="https://studio-level-6128.github.io/website/"><img src="assets/studio-level-6128.png" width="150" height="100" alt="Studio Level 6128"></a></p>

@@ -41,3 +41,5 @@ The implemented chapter uses a single full-body Bram sprite, static close-up ill
 - Final media set: 222 generated speech entries and one new ambience, plus reused effects; eleven new painted image files including the initial service landing.
 - Act II end-to-end, Act II media decoding, chapter-cache retry/offline-range tests, title-screen tests and sound-default tests passed in targeted runs.
 - A broader regression attempt was not fully green. The separately rerun Act I reduced-motion arrival test still times out waiting for its arrival overlay to dismiss within 15 seconds. Act II arrival passes. This issue was not changed or suppressed as part of Act III, and a complete passing full-suite run is not claimed.
+
+<p align="center">Produced by<br><a href="https://studio-level-6128.github.io/website/"><img src="assets/studio-level-6128.png" width="150" height="100" alt="Studio Level 6128"></a></p>

@@ -1,6 +1,6 @@
 # GitHub Pages & visual identity
 
-[Project overview](../README.md) · [Installation](INSTALLATION.md) · [Development](DEVELOPMENT.md)
+[Project website](https://studio-level-6128.github.io/MonkeyBusiness/) · [Project overview](../README.md) · [Installation](INSTALLATION.md) · [Development](DEVELOPMENT.md)
 
 ## Prepared site
 
@@ -87,3 +87,5 @@ https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a
 https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
 https://vite.dev/guide/static-deploy
 ```
+
+<p align="center">Produced by<br><a href="https://studio-level-6128.github.io/website/"><img src="assets/studio-level-6128.png" width="150" height="100" alt="Studio Level 6128"></a></p>

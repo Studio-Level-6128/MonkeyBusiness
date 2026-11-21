@@ -6,6 +6,14 @@ const introFiles=Object.values(introLines).map((l:any)=>manifest.speech[`${l.who
 import { routePoints, routePath } from '../src/map-routes';
 import { fresh, AUTO, SAVE } from '../src/chapter-state';
 
+for(const width of [390,1280])test(`splash producer credit at ${width}px`,async({page})=>{
+ await page.setViewportSize({width,height:720});await page.goto('/');
+ const credit=page.getByRole('link',{name:'Produced by Studio Level 6128'});
+ await expect(credit).toBeInViewport();await expect(credit).toHaveAttribute('href','https://studio-level-6128.github.io/website/');
+ await expect.poll(()=>credit.locator('img').evaluate((img:HTMLImageElement)=>img.naturalWidth)).toBeGreaterThan(0);
+ await page.locator('#splash-enter').click();await expect(page.locator('#start-menu')).toBeVisible();await expect(credit).toBeHidden();
+});
+
 test('splash, menu, animated intro, pause and natural finish',async({page})=>{
  test.setTimeout(65000);const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
  await page.addInitScript(()=>{(window as any).__ended=[];const play=HTMLMediaElement.prototype.play;HTMLMediaElement.prototype.play=function(){this.addEventListener('ended',()=>{(window as any).__ended.push(this.src.split('/').pop());},{once:true});return play.call(this);};});

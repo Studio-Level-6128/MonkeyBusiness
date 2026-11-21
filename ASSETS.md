@@ -151,3 +151,10 @@ Six new room backgrounds, two changed-state backgrounds, character/prop/emblem a
 Eight original generated 1536 × 1024 illustrations are stored under `public/assets/act5/`: command, bypass, watch, coupling, passage, review, chart and ending. Generation used the existing codex-imagegen-cli 0.2.0 workflow; prompts are recorded in `public/assets/act5/generation.json`. The inspection-map PNG is a Pillow composition of the existing generated shoal chart, two new room cutaways and the dry walking route.
 
 The static ElevenLabs manifest contains 212 spoken entries and four sound assets, with per-file voice/settings provenance in `public/audio/act5-provenance.json`. Returning locations and cast reuse their existing artwork and speech. No runtime generation service or credentials are distributed. See the Act V implementation document for scope, reproduction scripts and presentation adaptations.
+
+
+## Studio logo
+
+The producer credit uses the [static logo from the studio website](https://studio-level-6128.github.io/website/assets/logo-still.png), stored locally for offline documentation.
+
+<p align="center">Produced by<br><a href="https://studio-level-6128.github.io/website/"><img src="docs/assets/studio-level-6128.png" width="150" height="100" alt="Studio Level 6128"></a></p>

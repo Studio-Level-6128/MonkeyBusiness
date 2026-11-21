@@ -238,3 +238,5 @@ This writes tracked JPEGs in `docs/assets/screenshots/`. The test is skipped dur
 - [Act V room plan](ACT_5_ROOM_PLAN.md) and [ending playbook](../playbook/Act-V/PLAYBOOK.md) (spoilers)
 
 Some older planning documents describe earlier milestones; use current source and regression tests to confirm implemented behavior.
+
+<p align="center">Produced by<br><a href="https://studio-level-6128.github.io/website/"><img src="assets/studio-level-6128.png" width="150" height="100" alt="Studio Level 6128"></a></p>

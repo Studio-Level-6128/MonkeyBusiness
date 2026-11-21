@@ -26,3 +26,5 @@ Final cast edit prompt:
 > Edit this exact three-character pirate game sprite sheet. Remove EVERY part of the background including ALL brown glow, ground shadows and black backdrop. Keep precisely the same three characters and poses and their full bodies, in the same three equally sized columns. Entire space between and around characters must have zero alpha, truly transparent. No background color, no halo, no atmosphere. Preserve detailed original painted pixel art. Landscape 1536x1024 PNG with alpha.
 
 The current quay, newspaper and workshop backgrounds have collectible-free edits so their pickups can disappear independently. See [COLLECTIBLE_ART_EDITS.md](COLLECTIBLE_ART_EDITS.md) for the replacement source identifiers and exact built-in image-generation prompts.
+
+<p align="center">Produced by<br><a href="https://studio-level-6128.github.io/website/"><img src="assets/studio-level-6128.png" width="150" height="100" alt="Studio Level 6128"></a></p>

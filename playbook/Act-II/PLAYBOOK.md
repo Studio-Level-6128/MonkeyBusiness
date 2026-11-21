@@ -217,3 +217,5 @@ Act II is complete. Choose **Continue to Act III** to open the next chapter. **C
 The next chapter opens in the tavern with Nell and Mara’s confession. This capture verifies the handoff; the Act III walkthrough continues in its own playbook.
 
 ![Verified Act III handoff](screenshots/map-route-34.png)
+
+<p align="center">Produced by<br><a href="https://studio-level-6128.github.io/website/"><img src="../../docs/assets/studio-level-6128.png" width="150" height="100" alt="Studio Level 6128"></a></p>

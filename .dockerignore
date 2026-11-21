@@ -7,6 +7,7 @@ test-results
 playwright-report
 playbook
 docs/assets
+!docs/assets/studio-level-6128.png
 **/*.key
 **/*.pem
 **/*.crt

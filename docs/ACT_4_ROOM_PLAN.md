@@ -916,3 +916,5 @@ Capture a fresh normal-controls run only after implementation, using an opt-in A
 - The observation system uses a common latched revision and deliberate story advances, not a real-time tide simulation.
 - Vane's offer is genuinely valuable; the refusal is about exclusivity, not discovering a trick clause that makes the offer worthless.
 - All dialogue, charter language, station values and new mechanism details remain reviewable proposals. Approving this plan would authorise subsequent implementation planning, not establish that any of these features already ship.
+
+<p align="center">Produced by<br><a href="https://studio-level-6128.github.io/website/"><img src="assets/studio-level-6128.png" width="150" height="100" alt="Studio Level 6128"></a></p>

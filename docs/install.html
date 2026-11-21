@@ -18,8 +18,8 @@
       <a href="index.html#aboard"><img src="assets/icon-compass.png" width="48" height="48" alt="">The adventure</a>
       <a href="index.html#gallery"><img src="assets/icon-map.png" width="48" height="48" alt="">Screenshots</a>
       <a href="install.html" aria-current="page"><img src="assets/icon-chest.png" width="48" height="48" alt="">Install &amp; play</a>
-      <a href="https://github.com/keuperj/MonkeyBusiness/blob/HEAD/docs/DEVELOPMENT.md"><img src="assets/icon-tools.png" width="48" height="48" alt="">Development</a>
-      <a href="https://github.com/keuperj/MonkeyBusiness"><img src="assets/icon-notebook.png" width="48" height="48" alt="">GitHub</a>
+      <a href="https://github.com/Studio-Level-6128/MonkeyBusiness/blob/HEAD/docs/DEVELOPMENT.md"><img src="assets/icon-tools.png" width="48" height="48" alt="">Development</a>
+      <a href="https://github.com/Studio-Level-6128/MonkeyBusiness"><img src="assets/icon-notebook.png" width="48" height="48" alt="">GitHub</a>
     </nav>
     <div class="masthead-motto">
       <p>A little wit. A reliable notebook. <span>Absolutely no fine print.*</span></p>
@@ -33,7 +33,7 @@
       <h1>Install &amp; play</h1>
       <p class="lede">Choose your berth: run locally with Node.js, or let Docker carry the supplies.</p>
       <p class="small">This guide installs the game; the website itself is not a playable deployment. No account or generation API key required.</p>
-      <a href="https://github.com/keuperj/MonkeyBusiness/blob/HEAD/docs/INSTALLATION.md">Read this guide on GitHub</a>
+      <a href="https://github.com/Studio-Level-6128/MonkeyBusiness/blob/HEAD/docs/INSTALLATION.md">Read this guide on GitHub</a>
     </div>
     <nav class="guide-toc" aria-label="Installation contents">
       <h2>Chart your course</h2>
@@ -49,7 +49,7 @@
 <ul><li>Node.js and npm. The pinned Vite 5 toolchain requires Node.js 18+; use a supported Node.js LTS release for a new installation.</li><li>Git, or a downloaded and extracted copy of the repository.</li><li>A modern browser with JavaScript, browser storage and service workers enabled.</li></ul>
 <p>The game runs in your browser. No account, backend, audio-generation credentials or paid API is needed to play. Artwork and recorded audio are included, so allow time for the repository download and the first chapter load.</p>
 <h2 id="start-the-game">Start the game</h2>
-<pre tabindex="0" aria-label="Command example"><code class="language-sh">git clone https://github.com/keuperj/MonkeyBusiness.git
+<pre tabindex="0" aria-label="Command example"><code class="language-sh">git clone https://github.com/Studio-Level-6128/MonkeyBusiness.git
 cd MonkeyBusiness
 npm ci
 npm run dev</code></pre>
@@ -61,11 +61,11 @@ npm run preview</code></pre>
 <p>Open the preview address printed in the terminal. The build produces <code>dist/</code>, containing the game and its assets. Serve that directory over HTTPS; localhost is supported for local testing. Do not publish the source directory as if it were a built game.</p>
 <p>For a host that serves the game from a subdirectory, supply its base path when building. For example:</p>
 <pre tabindex="0" aria-label="Command example"><code class="language-sh">npm run build -- --base=/MonkeyBusiness/</code></pre>
-<p>This is for a <strong>playable game deployment</strong>, not the separate promotional Pages site described in <a href="https://github.com/keuperj/MonkeyBusiness/blob/HEAD/docs/PAGES.md">PAGES.md</a>. Test chapter transitions, asset downloads and reloads on the actual deployment path before sharing it.</p>
+<p>This is for a <strong>playable game deployment</strong>, not the separate promotional Pages site described in <a href="https://github.com/Studio-Level-6128/MonkeyBusiness/blob/HEAD/docs/PAGES.md">PAGES.md</a>. Test chapter transitions, asset downloads and reloads on the actual deployment path before sharing it.</p>
 <h2 id="run-with-docker-no-local-node-js-installation">Run with Docker (no local Node.js installation)</h2>
 <p>Install Docker Engine or Docker Desktop and Git first. The repository includes an Ubuntu 24.04-based multi-stage <code>Dockerfile</code>: it obtains the Node.js 22 toolchain, installs locked npm dependencies, builds the game, then copies the finished files into a fresh Ubuntu image with Nginx. Build tools are not retained in the runtime image. The initial build needs Internet access; artwork and audio are already in the repository, so no generation API credentials are needed.</p>
 <h3 id="build-and-start">Build and start</h3>
-<pre tabindex="0" aria-label="Command example"><code class="language-sh">git clone https://github.com/keuperj/MonkeyBusiness.git
+<pre tabindex="0" aria-label="Command example"><code class="language-sh">git clone https://github.com/Studio-Level-6128/MonkeyBusiness.git
 cd MonkeyBusiness
 docker build --pull -t monkey-business:local .
 docker run -d --name monkey-business \
@@ -79,7 +79,7 @@ docker run -d --name monkey-business \
 <h3 id="public-hosting">Public hosting</h3>
 <p>The command above deliberately binds to localhost only. For other players, put a trusted HTTPS reverse proxy in front of the container and forward the domain root to this backend. Do not expose plain HTTP on a public address: chapter caching/service workers need a secure browser context (localhost is the development exception).</p>
 <p>A proxy running directly on the same host can use <code>http://127.0.0.1:8080</code>. A proxy in another container must reach the game over a shared Docker network; its own localhost is not the game container. Configure DNS, certificates and firewall rules for your hosting environment separately.</p>
-<p>For development-only remote HTTPS access with a self-signed certificate and configurable host IP/port, see <strong>Docker development/testing image with HTTPS</strong> in <a href="https://github.com/keuperj/MonkeyBusiness/blob/HEAD/docs/DEVELOPMENT.md">the development guide</a>. Self-signed certificates are not a substitute for trusted public-hosting certificates.</p>
+<p>For development-only remote HTTPS access with a self-signed certificate and configurable host IP/port, see <strong>Docker development/testing image with HTTPS</strong> in <a href="https://github.com/Studio-Level-6128/MonkeyBusiness/blob/HEAD/docs/DEVELOPMENT.md">the development guide</a>. Self-signed certificates are not a substitute for trusted public-hosting certificates.</p>
 <h3 id="status-logs-and-updates">Status, logs and updates</h3>
 <pre tabindex="0" aria-label="Command example"><code class="language-sh">docker ps --filter name=monkey-business
 docker logs --tail 100 monkey-business
@@ -102,8 +102,9 @@ docker rm monkey-business</code></pre>
   </main>
   <footer>
     <img class="footer-logo" src="assets/game-logo-transparent.png" width="900" height="600" loading="lazy" alt="Monkey Buisness">
+    <p>Produced by<br><a href="https://studio-level-6128.github.io/website/"><img src="assets/studio-level-6128.png" width="150" height="100" alt="Studio Level 6128"></a></p>
     <p>An original open-source adventure. Not affiliated with Monkey Island.</p>
-    <p><a href="https://github.com/keuperj/MonkeyBusiness">Source on GitHub</a> · <a href="https://github.com/keuperj/MonkeyBusiness/issues">Report an issue</a> · <a href="https://github.com/keuperj/MonkeyBusiness/blob/HEAD/ASSETS.md">Asset provenance</a> · <a href="https://github.com/keuperj/MonkeyBusiness/blob/HEAD/LICENSE">GPL v3</a></p>
+    <p><a href="https://github.com/Studio-Level-6128/MonkeyBusiness">Source on GitHub</a> · <a href="https://github.com/Studio-Level-6128/MonkeyBusiness/issues">Report an issue</a> · <a href="https://github.com/Studio-Level-6128/MonkeyBusiness/blob/HEAD/ASSETS.md">Asset provenance</a> · <a href="https://github.com/Studio-Level-6128/MonkeyBusiness/blob/HEAD/LICENSE">GPL v3</a></p>
     <p class="small">Includes generated artwork and voice/audio assets. Made with Phaser, TypeScript and Vite.</p>
   </footer>
 </body>

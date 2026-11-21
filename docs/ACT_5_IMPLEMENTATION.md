@@ -80,3 +80,5 @@ Logs: `/tmp/monkey-act5-validation.log`, `/tmp/monkey-act5-handoff-validation.lo
 - Production build passed (`/tmp/monkey-act5-final-build.log`); existing large-chunk warning remains.
 - Artwork contact sheet and rendered command/bypass room screenshots reviewed.
 - This is a focused regression set, not a claim that every repository test was rerun.
+
+<p align="center">Produced by<br><a href="https://studio-level-6128.github.io/website/"><img src="assets/studio-level-6128.png" width="150" height="100" alt="Studio Level 6128"></a></p>

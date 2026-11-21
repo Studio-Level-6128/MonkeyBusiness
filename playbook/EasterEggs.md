@@ -287,3 +287,5 @@ Repository root: `/home/keuper/Projekte/MonkeyBusiness`.
 - `/home/keuper/Projekte/MonkeyBusiness/docs/STORY_PLAN.md`, section 9 — explicit inspiration mapping and proposed-only boundaries.
 
 The three Acts I–II flagged interactions and the chair inspection were reproduced for the original screenshots. The two Act III entries were checked against source; no additional Act III screenshots were created. All three Act IV entries and Act V's Exhibit Zero were captured during full playthroughs, with discovery flags and retained lint verified after reload. Act V's boat callback and credits also have screenshots, but are not counted as additional flagged discoveries. Reference meanings above are based on the repository’s own design notes and displayed text; broader interpretations are not presented as additional confirmed crossovers.
+
+<p align="center">Produced by<br><a href="https://studio-level-6128.github.io/website/"><img src="../docs/assets/studio-level-6128.png" width="150" height="100" alt="Studio Level 6128"></a></p>

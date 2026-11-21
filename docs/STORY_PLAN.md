@@ -383,3 +383,5 @@ After this outline is refined, build a room plan that records, for each location
 - Art, animation, audio and writing requirements.
 
 Start with Act I and its connection to the existing prototypes. Keep later acts at outline level until the opening's goals, clues and tone work together.
+
+<p align="center">Produced by<br><a href="https://studio-level-6128.github.io/website/"><img src="assets/studio-level-6128.png" width="150" height="100" alt="Studio Level 6128"></a></p>

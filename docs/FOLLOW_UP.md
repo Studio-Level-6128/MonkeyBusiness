@@ -28,3 +28,5 @@ Act II now has six new illustrated rooms, returning harbour locations, its inves
 The newspaper pencil interaction adds a Zak McKracken-style situational Easter egg; the repaired household also includes an optional chair-reservation joke. Start-page act/room presets are editable in `public/debug-start.json` and can be disabled with `enabled: false`.
 
 Implementation, save keys and regeneration instructions: [ACT_2_IMPLEMENTATION.md](ACT_2_IMPLEMENTATION.md). Act III remains a future chapter; Act II ends with its title and allows continued exploration.
+
+<p align="center">Produced by<br><a href="https://studio-level-6128.github.io/website/"><img src="assets/studio-level-6128.png" width="150" height="100" alt="Studio Level 6128"></a></p>

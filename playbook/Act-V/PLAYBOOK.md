@@ -442,3 +442,5 @@ CAPTURE_ACT5_PLAYBOOK=1 CHROMIUM_PATH=/usr/bin/chromium-browser npx playwright t
 ```
 
 Capture source: `/home/keuper/Projekte/MonkeyBusiness/tests/act5-playbook.spec.ts`. Run serially with other captures to avoid shared-server shutdowns. The guide is written only after completion, reload, inventory and discovery assertions pass.
+
+<p align="center">Produced by<br><a href="https://studio-level-6128.github.io/website/"><img src="../../docs/assets/studio-level-6128.png" width="150" height="100" alt="Studio Level 6128"></a></p>

@@ -2,13 +2,15 @@
 
 # Monkey Buisness
 
+<p align="center">Produced by<br><a href="https://studio-level-6128.github.io/website/"><img src="docs/assets/studio-level-6128.png" width="150" height="100" alt="Studio Level 6128"></a></p>
+
 ### A harbour full of secrets. A sword fight full of wordplay. One very inconvenient surveyor.
 
 **An original, open-source point-and-click adventure in five playable acts.** Step into Nell’s boots and explore Brindle Quay: a lantern-lit harbour where the paperwork is suspicious, the machinery has opinions, and a good observation can be more dangerous than a sword.
 
 Start with a job at **The Crooked Compass**. Trade barbs with Captain Quibble and his parrot, **Fine Print**. Follow the clues from a curious current to a much larger argument about who gets to control the water.
 
-**[Install & play](docs/INSTALLATION.md)** · **[Development guide](docs/DEVELOPMENT.md)** · **[GitHub Pages kit](docs/PAGES.md)** · **[Report a bug](https://github.com/keuperj/MonkeyBusiness/issues)**
+**[Project website](https://studio-level-6128.github.io/MonkeyBusiness/)** · **[Install & play](docs/INSTALLATION.md)** · **[Development guide](docs/DEVELOPMENT.md)** · **[GitHub Pages kit](docs/PAGES.md)** · **[Report a bug](https://github.com/Studio-Level-6128/MonkeyBusiness/issues)**
 
 ## Set sail for Brindle Quay
 
@@ -46,7 +48,7 @@ Unannotated captures from the running game, reached using development presets. T
 With Node.js and npm installed:
 
 ```sh
-git clone https://github.com/keuperj/MonkeyBusiness.git
+git clone https://github.com/Studio-Level-6128/MonkeyBusiness.git
 cd MonkeyBusiness
 npm ci
 npm run dev

@@ -948,3 +948,5 @@ On a fresh normal Act II start, Nell talks herself through her evidence and the 
 > **Nell:** “And Orin’s missing ship. Boats rarely disappear out of embarrassment, even when their navigators would like them to. I should ask him for a proper description.”
 >
 > **Nell:** “Check the witnesses. Follow the machinery. Find the boat. If I can explain this harbour, perhaps I can finally reach Bellweather Shoal. One well-supported mistake at a time.”
+
+<p align="center">Produced by<br><a href="https://studio-level-6128.github.io/website/"><img src="assets/studio-level-6128.png" width="150" height="100" alt="Studio Level 6128"></a></p>

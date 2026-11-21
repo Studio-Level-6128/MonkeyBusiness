@@ -23,14 +23,17 @@ def inline(text):
         label, url = match.groups()
         if url.endswith('.md'):
             path = (DOCS / url).resolve().relative_to(ROOT).as_posix()
-            url = 'https://github.com/keuperj/MonkeyBusiness/blob/HEAD/' + path
+            url = 'https://github.com/Studio-Level-6128/MonkeyBusiness/blob/HEAD/' + path
         return protect(f'<a href="{html.escape(url, quote=True)}">{html.escape(label)}</a>')
     text = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', link, text)
     text = html.escape(text)
     text = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', text)
     return re.sub(r'\x00(\d+)\x00', lambda m: tokens[int(m[1])], text)
 
+# The Markdown producer credit is already present in the shared site footer.
 lines = SOURCE.read_text().splitlines()
+if lines and lines[-1].startswith('<p align="center">Produced by<br>'):
+    lines.pop()
 out, contents = [], []
 i = 0
 while i < len(lines):
@@ -107,7 +110,7 @@ page = '''<!doctype html>
       <h1>Install &amp; play</h1>
       <p class="lede">Choose your berth: run locally with Node.js, or let Docker carry the supplies.</p>
       <p class="small">This guide installs the game; the website itself is not a playable deployment. No account or generation API key required.</p>
-      <a href="https://github.com/keuperj/MonkeyBusiness/blob/HEAD/docs/INSTALLATION.md">Read this guide on GitHub</a>
+      <a href="https://github.com/Studio-Level-6128/MonkeyBusiness/blob/HEAD/docs/INSTALLATION.md">Read this guide on GitHub</a>
     </div>
     <nav class="guide-toc" aria-label="Installation contents">
       <h2>Chart your course</h2>

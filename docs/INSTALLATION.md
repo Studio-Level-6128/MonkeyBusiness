@@ -13,7 +13,7 @@ The game runs in your browser. No account, backend, audio-generation credentials
 ## Start the game
 
 ```sh
-git clone https://github.com/keuperj/MonkeyBusiness.git
+git clone https://github.com/Studio-Level-6128/MonkeyBusiness.git
 cd MonkeyBusiness
 npm ci
 npm run dev
@@ -47,7 +47,7 @@ Install Docker Engine or Docker Desktop and Git first. The repository includes a
 ### Build and start
 
 ```sh
-git clone https://github.com/keuperj/MonkeyBusiness.git
+git clone https://github.com/Studio-Level-6128/MonkeyBusiness.git
 cd MonkeyBusiness
 docker build --pull -t monkey-business:local .
 docker run -d --name monkey-business \
@@ -111,3 +111,5 @@ Saves stay in each player's browser, not in a Docker volume. Keeping the same br
 | Old assets after development changes | Restart the dev server to regenerate manifests; see the development guide. Avoid clearing site data unless saves may be discarded. |
 
 Chapter artwork/audio are cached for reuse. This is not a guarantee that a fresh visit will work offline: the application shell and manifests still need to load.
+
+<p align="center">Produced by<br><a href="https://studio-level-6128.github.io/website/"><img src="assets/studio-level-6128.png" width="150" height="100" alt="Studio Level 6128"></a></p>

@@ -278,3 +278,5 @@ Choose **Warehouse corner** and **Lighthouse notch**. Do not choose Company buoy
 **Choose the next lead → Follow the signal hardware → Continue to Act II.**
 
 The game says the other leads remain in the notebook; this playthrough specifically verified the signal-hardware route.
+
+<p align="center">Produced by<br><a href="https://studio-level-6128.github.io/website/"><img src="../../docs/assets/studio-level-6128.png" width="150" height="100" alt="Studio Level 6128"></a></p>

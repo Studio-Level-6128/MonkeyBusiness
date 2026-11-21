@@ -25,3 +25,5 @@ Source: exec-e0419f89-165b-4b6c-a576-d74f41795871.png
 Prompt:
 
 Use case: precise-object-edit. Edit target: supplied existing pirate adventure room. Remove all parchment sheets mounted on the large wooden drawing easel at left (x285–540,y175–485), leaving the empty wooden backing and rails visible. Remove the hanging crank-like tools from the far-right pegboard (x1385–1510,y270–415), leaving their empty hooks. Preserve all other equipment. These collectible objects will be rendered separately by the game. Keep ALL other pixels/composition, room geometry, perspective, camera, lantern lighting, painted pixel style and 1536x1024 dimensions as close to the original as possible. No characters, no new objects, no text, no UI. Seamlessly reconstruct the formerly covered surfaces.
+
+<p align="center">Produced by<br><a href="https://studio-level-6128.github.io/website/"><img src="assets/studio-level-6128.png" width="150" height="100" alt="Studio Level 6128"></a></p>

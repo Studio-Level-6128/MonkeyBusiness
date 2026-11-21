@@ -38,3 +38,5 @@ Outputs: `/home/keuper/Projekte/MonkeyBusiness/test-results/hotspot-audit/`, wit
 Validation logs: `/tmp/monkey-hotspot-audit.log` (initial findings), `/tmp/monkey-hotspot-act1.log` (Act I fixes), `/tmp/monkey-hotspot-build.log` (TypeScript/build), and `/tmp/monkey-hotspot-final.log` (combined final audit and gameplay regressions). Check final log completion before claiming the entire suite passed.
 
 Final observed results: the combined run completed with 34 passing tests and one Act V audit failure caused by `ECONNRESET` while fetching the scene module. The isolated Act V rerun passed (2.0m), recorded in `/tmp/monkey-hotspot-act5-recheck.log`. TypeScript/build and `git diff --check` passed. Thus all selected tests passed across these runs, not in one uninterrupted run. Playwright clears previous output when starting a new suite; the last run's screenshot directory contains Act V only. Run the complete audit again to regenerate all acts' captures together.
+
+<p align="center">Produced by<br><a href="https://studio-level-6128.github.io/website/"><img src="assets/studio-level-6128.png" width="150" height="100" alt="Studio Level 6128"></a></p>

@@ -838,3 +838,5 @@ The first draft makes these explicit choices for review:
 8. Keep one fixed story outcome, optional revisits and no ticking travel deadline.
 
 **Recommended implementation sequence after review:** establish the Act II→III save boundary and tavern confession; implement tracing/watch/departure; build the shoal landing and caretaker gallery; implement recorder and model branches independently; connect synthesis and safe return; then add art, approved speech, optional reactions and full-route tests. Do not alter the current Act II ending until the new entry, recovery and return paths are functional.
+
+<p align="center">Produced by<br><a href="https://studio-level-6128.github.io/website/"><img src="assets/studio-level-6128.png" width="150" height="100" alt="Studio Level 6128"></a></p>

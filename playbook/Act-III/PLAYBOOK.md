@@ -285,3 +285,5 @@ After saving and reloading, Nell remains at Repair Quay with the completion boun
 ## Ending boundary
 
 **Act IV is not yet available.** Act III records the safe procedure and evidence without preparing real stations or performing the live override. The final confirmation can be cancelled to keep investigating; completed saves still allow exploration.
+
+<p align="center">Produced by<br><a href="https://studio-level-6128.github.io/website/"><img src="../../docs/assets/studio-level-6128.png" width="150" height="100" alt="Studio Level 6128"></a></p>

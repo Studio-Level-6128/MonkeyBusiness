@@ -784,3 +784,5 @@ This plan is not a walkthrough, and its proposed illustrations are not evidence 
 - All nine existing speakers receive a payoff; no late antagonist, hidden treasure crown or new voiced magistrate resolves the story.
 - Pocket lint earns an absurd catalogue entry, not control of the sea.
 - The fifth act completes the story: the harbour remains imperfect, but its people have the information and responsibility to argue on fairer terms.
+
+<p align="center">Produced by<br><a href="https://studio-level-6128.github.io/website/"><img src="assets/studio-level-6128.png" width="150" height="100" alt="Studio Level 6128"></a></p>

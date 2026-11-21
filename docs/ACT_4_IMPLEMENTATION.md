@@ -48,3 +48,5 @@ The illustrated walkthrough is now available at `/home/keuper/Projekte/MonkeyBus
 - Whitespace/diff check: passed. Generated contact sheet, rendered station and completed harbour were visually reviewed.
 
 Logs: `/tmp/monkey-act4-validation.log`, `/tmp/monkey-act4-final-tests.log`, `/tmp/monkey-act4-final-build.log`, `/tmp/monkey-act4-full-suite.log`, `/tmp/monkey-act4-legacy-recheck.log`.
+
+<p align="center">Produced by<br><a href="https://studio-level-6128.github.io/website/"><img src="assets/studio-level-6128.png" width="150" height="100" alt="Studio Level 6128"></a></p>

@@ -7,3 +7,5 @@ Starting or loading Act I opens an illustrated loading screen before the intro o
 Files are saved in browser Cache Storage. Matching revisions are reused; changed assets are downloaded again. The same-origin service worker serves cached art and audio, including audio byte-range requests. Phaser initializes only after the cache is complete. JavaScript, styles and story JSON are loaded by the application bundle before the loading screen is shown.
 
 Deployment requires HTTPS (localhost works for development), service workers and browser storage. Browser cache eviction or clearing site data causes a new download. Storage failures are reported on the loading screen. This is asset precaching, not a promise that the application can be opened offline: the HTML/application shell and manifest still need a connection on a new visit. Existing offline play can use the downloaded chapter assets.
+
+<p align="center">Produced by<br><a href="https://studio-level-6128.github.io/website/"><img src="assets/studio-level-6128.png" width="150" height="100" alt="Studio Level 6128"></a></p>

@@ -13,3 +13,5 @@ The shared single-row layout contains the game logo and current-room emblem on t
 5. Use `paintSound(button, enabled)` whenever the sound state changes. Do not replace the button with text; this helper updates the icon, accessible label, pressed state and tooltip together.
 
 Gameplay, travel routes and unlock rules remain owned by the game; the header displays and invokes them. New destinations still need their own scene, assets and route definition.
+
+<p align="center">Produced by<br><a href="https://studio-level-6128.github.io/website/"><img src="assets/studio-level-6128.png" width="150" height="100" alt="Studio Level 6128"></a></p>

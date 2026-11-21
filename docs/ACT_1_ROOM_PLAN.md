@@ -588,3 +588,5 @@ These are changes for the next implementation pass. Nothing in this document say
 - [ ] Approve the speaking-line draft before expanding the generated audio library.
 
 **Recommended next implementation slice:** Make the chart a persistent document and connect the tavern to an explorable bridge approach. Then build the landing's observation sequence before polishing optional interactions.
+
+<p align="center">Produced by<br><a href="https://studio-level-6128.github.io/website/"><img src="assets/studio-level-6128.png" width="150" height="100" alt="Studio Level 6128"></a></p>
